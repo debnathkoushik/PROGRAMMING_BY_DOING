@@ -13,9 +13,7 @@ public class LetterCheck1
 
         int StartingNumber = 0;
         int count = 0;
-        // System.out.println("Input a ending number:");
-        // double EndingNumber = InputFromUser.nextDouble();
-
+        
         for ( ; StartingNumber < MessageLength ; StartingNumber++)
         {
             if (message.charAt(StartingNumber) == 'A' || message.charAt(StartingNumber) == 'a')
