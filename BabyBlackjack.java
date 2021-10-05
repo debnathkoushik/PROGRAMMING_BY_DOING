@@ -43,7 +43,7 @@ public class BabyBlackjack
 
         if (SumOfPlayer > SumOfDealer)
         {
-            System.out.println("PLAYER WINS!");
+            System.out.println("PLAYER WINS! ");
         }
 
         else

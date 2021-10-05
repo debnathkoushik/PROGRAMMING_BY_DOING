@@ -25,6 +25,7 @@ public class HeronsFormula
 		double Side, Area;
 
 		Side = (Side1 + Side2 + Side3) / 2;
+        System.out.println(Side);
 		Area = Math.sqrt( Side * (Side - Side1) * (Side - Side2) * (Side - Side3) );
 
 		return Area;

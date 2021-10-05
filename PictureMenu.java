@@ -6,6 +6,7 @@ public class PictureMenu
 	{
 		Scanner kb = new Scanner(System.in);
 		int choice;
+        int n = 10;
 		
 		System.out.println( "1. Butterfly " );
 		System.out.println( "2. Elephant  " );
@@ -37,7 +38,7 @@ public class PictureMenu
 			System.out.println( "Sorry, that wasn't one of the choices." );
 		}
 
-		System.out.println( "\nGoodbye!" );
+		System.out.print( "\nGoodbye!" );
 	}
 	
 	public static void butterfly()

@@ -7,10 +7,8 @@ public class WeekdayCalculator
 		Scanner keyboard = new Scanner(System.in);
 
 		System.out.println("Welcome to Mr. Mitchell's fantastic birth-o-meter!");
-		System.out.println();
 		System.out.println("All you have to do is enter your birth date, and it will");
 		System.out.println("tell you the day of the week on which you were born.");
-		System.out.println();
 		System.out.println("Some automatic tests....");
 		System.out.println("12 10 2003 => " + weekday(12,10,2003));
 		System.out.println(" 2 13 1976 => " + weekday(2,13,1976));
@@ -67,61 +65,61 @@ public class WeekdayCalculator
             return Answer;
         }
 
-        if (mm== 2)
+        else if (mm== 2)
         {
             Answer = "February";
             return Answer;
         }
 
-        if (mm== 3)
+        else if (mm== 3)
         {
             Answer = "March";
             return Answer;
         }
 
-        if (mm== 4)
+        else if (mm== 4)
         {
             Answer = "April";
             return Answer;
         }
 
-        if (mm== 5)
+        else if (mm== 5)
         {
             Answer = "May";
             return Answer;
         }
 
-        if (mm== 6)
+        else if (mm== 6)
         {
             Answer = "June";
             return Answer;
         }
 
-        if (mm== 7)
+        else if (mm== 7)
         {
             Answer = "July";
             return Answer;
         }
 
-        if (mm== 8)
+        else if (mm== 8)
         {
             Answer = "August";
             return Answer;
         }
 
-        if (mm== 9)
+        else if (mm== 9)
         {
             Answer = "September";
             return Answer;
         }
 
-        if (mm== 10)
+        else if (mm== 10)
         {
             Answer = "October";
             return Answer;
         }
 
-        if (mm== 11)
+        else if (mm== 11)
         {
             Answer = "November";
             return Answer;

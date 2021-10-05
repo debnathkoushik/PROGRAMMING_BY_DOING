@@ -15,6 +15,7 @@ public class CountingWhile
 		{
 			System.out.println( (n+1) + ". " + message );
 			n++;
+			System.out.println(n);
 		}
 
 	}
