@@ -15,8 +15,8 @@ public class FindingPrimeNumbers
         {
             Factor = isPrime( FirstNumber, LastNumber, Factor);
         }
-
-        if (Factor > 1)
+        
+        if (Factor >= 1)
         {
             System.out.println(LastNumber + " is not a prime number.");
         }
@@ -24,6 +24,7 @@ public class FindingPrimeNumbers
         else
         {
             System.out.println(LastNumber + " is a prime number.");
+            System.out.println(Factor);
         }
     }
 
@@ -31,7 +32,8 @@ public class FindingPrimeNumbers
     {
         if (LastNumber % FirstNumber == 0)
         {
-           return Factor ++;
+            Factor ++;
+           return Factor;
         }
 
         else
