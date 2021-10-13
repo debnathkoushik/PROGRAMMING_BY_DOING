@@ -1,0 +1,35 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class FindingNumberInAnArray
+{
+    public static void main(String args[])
+    {
+        Random random_number = new Random();
+
+        int array_1[] = new int[10];
+
+        System.out.println("The numbers are: ");
+
+        for (int i = 0; i < 10; i++)
+        {
+            array_1[i] = 1 + random_number.nextInt(100);
+
+            System.out.print(array_1[i] + "  ");
+        }
+
+        System.out.println("\n");
+
+        System.out.println("Enter the number you want to search: ");
+        Scanner InputFromUser = new Scanner(System.in);
+        int number = InputFromUser.nextInt();
+
+        for (int i = 0; i < 10; i++)
+        {
+            if (number == array_1[i])
+            {
+                System.out.println("Your number  " + array_1[i] + " is present in position " + (i + 1) );
+            }
+        }
+    }
+}
