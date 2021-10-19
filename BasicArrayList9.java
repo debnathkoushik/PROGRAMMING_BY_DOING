@@ -22,7 +22,7 @@ public class BasicArrayList9
         System.out.println("Array: " + list_1);
         
         int highest_number = list_1.get(0);
-        int position = 0;
+        int position = 1;
 
         for (int i = 1; i < list_1.size(); i++)
         {
