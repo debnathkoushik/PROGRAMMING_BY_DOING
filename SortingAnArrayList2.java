@@ -8,13 +8,14 @@ public class SortingAnArrayList2
 
         Scanner InputFromUser = new Scanner(System.in);
 
-        System.out.println("Enter total number of inputs: ");
+        System.out.print("Enter total number of inputs: ");
         int number = InputFromUser.nextInt();
 
         String items = "";
 
         for (int i = 0; i < number; i++)
         {
+            System.out.print("Enter input for slot " + (i + 1) + ": ");
             items = InputFromUser.next();
             list_1.add(items);
         }
