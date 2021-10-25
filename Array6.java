@@ -18,7 +18,6 @@ public class Array6
         {
             array_1[i] = 1 + random_number.nextInt(100);
 
-            
         }
 
         System.out.println("\n");

@@ -46,5 +46,6 @@ public class ParallelArrays
                 System.exit(0);
             }
         }
+        System.out.println("Details not available for the ID number " + ID_number + " !");
     }
 }

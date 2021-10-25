@@ -10,7 +10,7 @@ public class BasicArrayList3
 
         int items = 0;
 
-        for (int i = 0; i < 1000; i++)
+        for (int i = 0; i < 10; i++)
         {
             items = 1 + random_number.nextInt(10);
             list.add(items);
@@ -21,8 +21,5 @@ public class BasicArrayList3
         {
             System.out.println(list.get(i));
         }
-        
-        //printing using the object
-        System.out.println(list);
     }
 }

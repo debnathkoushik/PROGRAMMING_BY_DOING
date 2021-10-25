@@ -1,27 +1,40 @@
 import java.util.Random;
 
-public class ExchangeSort
+import javax.swing.text.Position;
+
+public class SelectionSort
 {
-	public static void exchange_sort( int[] arr1 )
+	public static void selection_sort( int[] a )
 	{
-		for (int i = 0; i < arr1.length; i++)
+		for (int i = 0; i < a.length; i++)
         {
-            for (int j = i + 1; j < arr1.length; j++)
+            int temp = 0;
+            int position = 0;
+            int tries = 0;
+
+            for (int j = i+1; j < a.length; j++)
             {
-                if (arr1[i] > arr1[j])
+                if (a[i] > a[j])
                 {
-                    swap(arr1, i, j);
+                    temp = a[j];
+                    position = j;
+                    tries++;
+                    System.out.println(temp);
                 }
+
+            }
+            if (tries > 0)
+            {
+                swap(a, i, temp, position);
             }
         }
 	}
 
 
-	public static void swap( int[] arr, int i, int j )
+	public static void swap( int[] a , int i, int temp, int j )
 	{
-		int temp = arr[i];
-		arr[i] = arr[j];
-		arr[j] = temp;
+		a[j] = a[i];
+        a[i] = temp;
 	}
 
 
@@ -42,7 +55,7 @@ public class ExchangeSort
 		System.out.println();
 
 		// Sort it
-		exchange_sort( arr );
+		selection_sort( arr );
 
 		// Display it again to confirm that it's sorted
 		System.out.print("after : ");

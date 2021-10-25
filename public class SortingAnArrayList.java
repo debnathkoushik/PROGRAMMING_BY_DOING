@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class BasicArrayList9
+public class SortingAnArrayList
 {
     public static void main(String args[])
     {
@@ -33,6 +33,6 @@ public class BasicArrayList9
             }
         }
 
-        System.out.println("The highest number is " + highest_number + " and is present at slot");
+        System.out.println("The highest number is " + highest_number + " and is present at slot " + position);
     }
 }

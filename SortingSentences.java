@@ -20,6 +20,8 @@ public class SortingSentences
         }       
 
         System.out.println("before: " + list_1);
+        
+        System.out.println("\nSORTING!");
 
         for (int i = 0; i < list_1.size(); i++)
         {
@@ -33,7 +35,7 @@ public class SortingSentences
             }
         }
         
-        System.out.println("after: " + list_1);
+        System.out.println("\nafter: " + list_1);
     }
 
     public static void swap(ArrayList <String> list_1, int i, int j)
