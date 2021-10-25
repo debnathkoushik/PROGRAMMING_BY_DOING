@@ -12,7 +12,7 @@ public class BasicArrayList3
 
         for (int i = 0; i < 10; i++)
         {
-            items = 1 + random_number.nextInt(10);
+            items = 1 + random_number.nextInt(100);
             list.add(items);
         }
         

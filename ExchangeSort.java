@@ -2,15 +2,15 @@ import java.util.Random;
 
 public class ExchangeSort
 {
-	public static void exchange_sort( int[] arr1 )
+	public static void exchange_sort( int[] arr )
 	{
-		for (int i = 0; i < arr1.length; i++)
+		for (int i = 0; i < arr.length; i++)
         {
-            for (int j = i + 1; j < arr1.length; j++)
+            for (int j = i + 1; j < arr.length; j++)
             {
-                if (arr1[i] > arr1[j])
+                if (arr[i] > arr[j])
                 {
-                    swap(arr1, i, j);
+                    swap(arr, i, j);
                 }
             }
         }
